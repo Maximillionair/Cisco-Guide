@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cisco Packet Tracer Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/frontend.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Cisco Packet Tracer Guide</h1>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Introduksjon</h2>
+            <p>Her får du en rask gjennomgang av hvordan Cisco Packet Tracer fungerer.</p>
+            <video controls>
+                <source src="video/intro.mp4" type="video/mp4">
+                Nettleseren din støtter ikke video.
+            </video>
+        </section>
+
+        <section id="lan-setup">
+            <h2>Sette opp et LAN</h2>
+            <p>Her lærer du hvordan du setter opp et enkelt LAN med tre maskiner.</p>
+            <img src="images/lan-setup.png" alt="LAN-oppsett" class="clickable">
+        </section>
+
+        <section id="dns-dhcp">
+            <h2>DNS og DHCP</h2>
+            <p>Her setter vi opp en DNS- og DHCP-server.</p>
+            <img src="images/dns-setup.png" alt="DNS-oppsett" class="clickable">
+            <img src="images/dhcp-setup.png" alt="DHCP-oppsett" class="clickable">
+        </section>
+
+        <section id="glossary">
+            <h2>Ordliste</h2>
+            <ul>
+                <li><strong>LAN:</strong> Local Area Network, et lokalt nettverk.</li>
+                <li><strong>DNS:</strong> Domain Name System, oversetter domener til IP-adresser.</li>
+                <li><strong>DHCP:</strong> Dynamic Host Configuration Protocol, tildeler IP-adresser automatisk.</li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="lightbox" class="hidden">
+        <span class="close">&times;</span>
+        <img id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
