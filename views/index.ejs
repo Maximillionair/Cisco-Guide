@@ -30,16 +30,30 @@
         </section>
 
         <section id="dns-dhcp">
-            <h2>DNS og DHCP</h2>
-            <p>Her setter vi opp en DNS- og DHCP-server.</p>
+            <h2>Oppsett av DNS</h2>
+            <p>Her setter vi opp en DNS server.</p>
+            <br>
+            <p>Først lager du et slik oppsett med en host, en switch og en server.
+            Koble dem sammen med en Copper straight through cable og velg FatEthernet0.</p>
             <img src="images/dns-1.png" alt="DNS-oppsett" class="clickable">
+            <p>Derretter gi serveren en IP og DNS.</p>
             <img src="images/dns-2.png" alt="DNS-oppsett" class="clickable">
+            <p>Gi så PC'en en IP og samme DNS.</p>
             <img src="images/dns-3.png" alt="DNS-oppsett" class="clickable">
+            <p>Under services, skru på DNS og legg inn navnet på nettsiden din.</p>
             <img src="images/dns-4.png" alt="DNS-oppsett" class="clickable">
+            <h2>Oppsett av DHCP</h2>
             <p>Her setter vi opp en DHCP server</p>
+            <br>
+            <p>Lag et oppsett med tre hosts, en switch og en server.
+            Koble sammen med Copper straight through cable og velg portene selv.
+            </p>
             <img src="images/dhcp-1.png" alt="DHCP-oppsett" class="clickable">
+            <p>Gi serveren en IP adresse</p>
             <img src="images/dhcp-2.png" alt="DHCP-oppsett" class="clickable">
+            <p>Skru på DHCP services på serveren og du kan velge mengde brukere tilgjengelig</p>
             <img src="images/dhcp-3.png" alt="DHCP-oppsett" class="clickable">
+            <p>Send en DHCP IP request til serveren for å gi PC'en en IP</p>
             <img src="images/dhcp-4.png" alt="DHCP-oppsett" class="clickable">
 
         </section>
